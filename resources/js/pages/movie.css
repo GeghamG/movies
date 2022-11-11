@@ -1,0 +1,15 @@
+.movies{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 25px;
+    justify-content: space-around;
+}
+
+.movies .ant-card-cover {
+    height: 335px;
+}
+
+.movies .ant-card-cover > img {
+    height: 100%;
+    object-fit: cover;
+}
